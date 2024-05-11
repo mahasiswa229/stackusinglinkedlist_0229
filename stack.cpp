@@ -86,8 +86,10 @@ int main()
 
         switch (choice)
         {
-        case :
-            /* code */
+        case 1:
+            cout << "Enter the Value to Push : " ;
+            cin >> value;
+            stack.push(value);
             break;
         
         default:
