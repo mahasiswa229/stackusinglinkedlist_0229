@@ -111,7 +111,11 @@ int main()
             cout << "Stack is Empty.No Top Value." << endl;
         }
         break;
+        case 4:
+            cout << "Exiting Program. " << endl;
+            break;
         default:
+        
             break;
         }
     }
