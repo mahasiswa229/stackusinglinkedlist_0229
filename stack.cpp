@@ -83,6 +83,16 @@ int main()
         cout << "4. Exit \n";
         cout << "Enter Your Choice : ";
         cin >> choice;
+
+        switch (choice)
+        {
+        case :
+            /* code */
+            break;
+        
+        default:
+            break;
+        }
     }
     
 }
