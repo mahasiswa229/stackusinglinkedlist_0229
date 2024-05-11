@@ -44,5 +44,13 @@ class Stack
         cout << "Popped Value : " << top -> data << endl;
         top = top -> next;
     }
-    
+
+    void peek()
+    {
+        if (top==NULL)
+        {
+            cout << "List is Empty" << endl;
+        }
+        
+    }
 };
